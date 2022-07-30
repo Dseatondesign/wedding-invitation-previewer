@@ -1,7 +1,7 @@
 ## Objectives
 
 1. Build a site with HTML, CSS, and JavaScript
-2. Use JavaScript to create a functionable, demonstrable, _presentable_ web
+2. Use JavaScript to create a functioning, demonstrable, _presentable_ web
 application
 
 ## Background
@@ -25,7 +25,7 @@ currently active look-and-feel.
 3. If you can think of ways to improve user experience, please do so! Our
 stressed couples appreciate thoughtful user experience (UX) that helps soother
 their addled nerves and nervous bank accounts
-4. Be Creative! If you want to corner the market on Goth-asthetic invitations,
+4. Be Creative! If you want to corner the market on Goth-aesthetic invitations,
 **DO IT**. If you think that super-kawaii anime invitations are your fast-track
 to riches and wealth **MAKE IT HAPPEN**. Remember this goes in _your_
 portfolio. Make sure your work is authentic and true to _you_.

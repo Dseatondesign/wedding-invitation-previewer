@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding Invitation</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href=""> -->
+</head>
+<body>
+    <main>
+        <div class="leftPanel">
+            <header>
+                <h1>Wedding Invitation Designer</h1>
+                <nav>
+                    <button type="button" id="btn-nature">Nature</button>
+                    <button type="button" id="btn-night-sky">Night-sky</button> 
+                    <button type="button" id="btn-art-deco">Art-Deco</button>
+                </nav>
+            </header>
+            <div class="form">
+                    <form>
+                        <label>
+                            Bride's First Name:
+                            <input type="text" id="bride-name" placeholder="E.g. Jane" onkeydown="getValue()">
+                        </label>
+                        <label>
+                            Groom's First Name:
+                            <input type="text" placeholder="E.g. John">
+                        </label>
+                        <label>
+                            Accepted Surname:
+                            <input type="text" placeholder="Traditionally Groom's Surname">
+                        </label>
+                        <label>
+                            Wedding Date:
+                            <input type="date">
+                        </label>
+                        <label>
+                            Event Start Time:
+                            <input type="time">
+                        </label>
+                        <label>
+                            Venue Name:
+                            <input type="text"  placeholder="Venue proposed">
+                        </label>
+                        <label>
+                            Venue Address:
+                            <input type="text"  placeholder="Location of Venue">
+                        </label>
+                    </form>
+            </div>
+        </div>
+        <div class="invitation" id="invitation">
+            <div id="bride-name-invitation">
+        
+            </div>
+        </div>
+    </main>  
+    <script type="text/javascript" src="javascript/script.js"></script>          
+</body>
+</html>
