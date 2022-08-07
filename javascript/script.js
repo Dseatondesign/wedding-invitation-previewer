@@ -15,15 +15,37 @@ btn3.addEventListener('click', () => {
 invitation.style.backgroundImage = "url('images/art-deco.png')";
 }); 
 
-function getValue() {
-    const bridesname = document.getElementById("bride-name").value;
-console.log(bridesname); 
-const bridesTitle = document.createElement("h1").innerText= bridesname;
-invitation.appendChild(bridesTitle)
-console.log(invitation)
-bridesTitle.innerHTML = bridesname
-}
-let newHeader = 
-newHeader.id = "victory";
-newHeader.innerHTML = "Dane is the champion";
-document.body.append(newHeader)
+const bridesTitle = document.getElementById("bride-name-invitation");
+document.getElementById("bride-name").addEventListener("input", (e) => {
+  bridesTitle.innerHTML = e.target.value;
+});
+
+const groomsName = document.getElementById("grooms-name-invitation");
+document.getElementById("groomsName").addEventListener("input", (e) => {
+  groomsName.innerHTML = e.target.value;
+});
+
+const surname = document.getElementById("surname-invitation");
+document.getElementById("surname").addEventListener("input", (e) => {
+  surname.innerHTML = e.target.value;
+});
+
+const date = document.getElementById("wedding-date");
+document.getElementById("date").addEventListener("input", (e) => {
+  date.innerHTML = e.target.value;
+});
+
+const eventTime = document.getElementById("event-start-time");
+document.getElementById("eventTime").addEventListener("input", (e) => {
+  eventTime.innerHTML = e.target.value;
+});
+
+const venueName = document.getElementById("venue-name");
+document.getElementById("venueName").addEventListener("input", (e) => {
+  venueName.innerHTML = e.target.value;
+});
+
+const venueAddress = document.getElementById("venue-address");
+document.getElementById("venueAddress").addEventListener("input", (e) => {
+  venueAddress.innerHTML = e.target.value;
+});

@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wedding Invitation</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap">
+          <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap">
     <!-- <link rel="stylesheet" href=""> -->
 </head>
 <body>
@@ -23,38 +27,54 @@
                     <form>
                         <label>
                             Bride's First Name:
-                            <input type="text" id="bride-name" placeholder="E.g. Jane" onkeydown="getValue()">
+                            <input type="text" id="bride-name" placeholder="E.g. Jane">
                         </label>
                         <label>
                             Groom's First Name:
-                            <input type="text" placeholder="E.g. John">
+                            <input type="text" id="groomsName" placeholder="E.g. John">
                         </label>
                         <label>
                             Accepted Surname:
-                            <input type="text" placeholder="Traditionally Groom's Surname">
+                            <input type="text" id="surname" placeholder="Traditionally Groom's Surname">
                         </label>
                         <label>
                             Wedding Date:
-                            <input type="date">
+                            <input type="date" id="date">
                         </label>
                         <label>
                             Event Start Time:
-                            <input type="time">
+                            <input type="time" id="eventTime">
                         </label>
                         <label>
                             Venue Name:
-                            <input type="text"  placeholder="Venue proposed">
+                            <input type="text" id="venueName"  placeholder="Venue proposed">
                         </label>
                         <label>
                             Venue Address:
-                            <input type="text"  placeholder="Location of Venue">
+                            <input type="text" id="venueAddress" placeholder="Location of Venue">
                         </label>
                     </form>
             </div>
         </div>
         <div class="invitation" id="invitation">
-            <div id="bride-name-invitation">
-        
+            <div id="textBlock">
+                <div id="names">
+                    <div id="bride-name-invitation"></div>
+                        <span>&</span>
+                    <div id="grooms-name-invitation"></div>
+                </div>
+                <div id="surname-invitation"></div>
+                <div id="appointment">
+                    <div id="wedding-date"></div>
+                    <div id="event-start-time"></div>
+                </div>
+                <div id="venue">
+                    <div id="venue-name"></div>
+                    <div id="venue-address"></div>
+                </div>
+                <div id ="save">
+                    <p>Kindly<br>Save our Date</p>
+                </div>
             </div>
         </div>
     </main>  
